@@ -1,0 +1,5 @@
+#The original location is： F:\DecayCurveDeployment\sklearn
+data_decay/*
+data_ttss/*
+model_decay/*
+model_ttss/*
