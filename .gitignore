@@ -1,0 +1,9 @@
+#The original location is： F:\Fluent\NVIDIA_Video
+figs/*
+figs_fluent/*
+figs_fluent_temperature/*
+figs_mlsolver_temperature/*
+data_decay/*
+data_ttss/*
+model_decay/*
+model_ttss/*

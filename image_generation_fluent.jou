@@ -1,0 +1,18 @@
+; read case -data
+;/file/read-case "test.cas.h5"
+/file/read-case "3d_cht_force_conv_conf_s1_noz.cas.h5"
+;change the names according to the data file used
+/file/read-data "true_solution_1.dat.h5"
+; pathlines colored by temperature
+/display/objects/create pathlines pathlines-1 surfaces-list inlet () quit
+/display/objects/edit pathlines-1 field temperature quit
+/display/objects/create mesh mesh-1 surfaces-list air-copper-interface-side-1 () quit 
+/display/objects/display mesh-1 
+/display/objects/add-to-graphics pathlines-1
+;save picture - set display settings
+/display/set/picture/driver/png
+/display/set/picture use-window-resolution? no
+/display/set/picture/x-resolution 960
+/display/set/picture/y-resolution 720
+;save picture
+/display/save-picture figs/1.png
