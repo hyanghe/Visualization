@@ -1,4 +1,7 @@
-#The original location is： F:\DecayCurveDeployment\sklearn
+figs/*
+figs_fluent/*
+figs_fluent_temperature/*
+figs_mlsolver_temperature/*
 data_decay/*
 data_ttss/*
 model_decay/*
